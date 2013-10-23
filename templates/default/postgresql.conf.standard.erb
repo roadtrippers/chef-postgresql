@@ -405,7 +405,7 @@ log_line_prefix = '<%= node["postgresql"]["log_line_prefix"] %>'     # special v
           #   %% = '%'
           # e.g. '[%u%%%d] '
 #log_lock_waits = <%= node["postgresql"]["log_lock_waits"] %>     # log lock waits >= deadlock_timeout
-#log_statement = '<%= node["postgresql"]["log_statement"] %>'     # none, ddl, mod, all
+log_statement = '<%= node["postgresql"]["log_statement"] %>'     # none, ddl, mod, all
 #log_temp_files = <%= node["postgresql"]["log_temp_files"] %>      # log temporary files equal or larger
           # than the specified size in kilobytes;
           # -1 disables, 0 logs all temp files

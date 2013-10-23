@@ -1,5 +1,10 @@
 # chef-postgresql
 
+## Disclaimer
+
+This is the Roadtrippers working copy of the **chef-postgresql** cookbook.  It
+mostly features changes in the templates where needed.  Your milage may vary.
+
 ## Description
 
 Installs [PostgreSQL](http://www.postgresql.org), The world's most advanced open source database.
